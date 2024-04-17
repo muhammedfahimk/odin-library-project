@@ -1,0 +1,44 @@
+body{
+    color: red;
+    background-color: bisque;
+} 
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.left{
+    height: 100vh;
+    padding: 60px ;
+    flex: 1;
+    background-color: rgb(216, 12, 12);
+} 
+ .right{
+    flex:6;
+    width: auto;
+    background-color: rgb(14, 15, 15);
+    padding: 20px 40px;
+} 
+ #btn-one{
+    color: rgb(192, 6, 209);
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    font-weight: 600;
+    background-color: black;
+} 
+
+
+::backdrop {
+    background-image: linear-gradient(
+      45deg,
+      magenta,
+      rebeccapurple,
+      dodgerblue,
+      green
+    );
+    opacity: 0.75;
+  }
